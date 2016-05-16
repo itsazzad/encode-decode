@@ -50,7 +50,8 @@ $key = generateKey();
 print_r($key);*/
 echo "\nGenerated key: ".implode($key);
 
-$input="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...";
+//$input="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...";
+$input="Hello World!";
 echo "\nInput: $input";
 
 $encodedString = encodeString($input, $key);
